@@ -1,12 +1,13 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:'Anton', "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,15 +15,15 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #759CBF;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #B8CAD9;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #A3BFD9;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +49,13 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color:  #6089BF !important; 
+}
+
+
+.border-info {
+	border-color:   #B8CAD9 !important;
 }
